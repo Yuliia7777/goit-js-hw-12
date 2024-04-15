@@ -47,7 +47,7 @@ async function getImages(page) {
     const pageItems = 15;
     loadMoreBtn.style.display = 'none';
 
-    //const totalHits = 30;
+    
 
 
     let response = await pixabay(searchTerm, page, pageItems);

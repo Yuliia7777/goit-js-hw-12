@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/svg+xml" href="/vanilla-app-template/favicon.svg" />
+    
+
+    
+
+    <script type="module" crossorigin src="/vanilla-app-template/commonHelpers.js"></script>
+    <link rel="modulepreload" crossorigin href="/vanilla-app-template/assets/vendor-48b140de.js">
+    <link rel="stylesheet" href="/vanilla-app-template/assets/vendor-4b066c51.css">
+    <link rel="stylesheet" href="/vanilla-app-template/assets/index-54a3739e.css">
+  </head>
+  <body>
+    
+
+    <div class="container">
+      <form id="searchForm">
+        <div>
+          <input
+            type="search"
+            id="searchInput"
+            placeholder="Search images..."
+            name="q"
+          />
+          <button type="submit" id="submit">Search</button>
+        </div>
+      </form>
+
+      <div id="gallery"></div>
+
+      <div>
+        <div
+          id="loading-indicator"
+          class="loading-indicator"
+          style="display: none"
+        >
+          Loading images, please wait...
+        </div>
+        <button id="load-more-btn" style="display: none">Load more</button>
+      </div>
+    </div>
+  </body>
+</html>
